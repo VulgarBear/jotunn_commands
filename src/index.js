@@ -81,7 +81,6 @@ class Main {
   }
 
   async connectToMongo(mongoUri) {
-    mongoose.set('strictQuery', false)
     await mongoose.connect(mongoUri, {
       keepAlive: true,
     })

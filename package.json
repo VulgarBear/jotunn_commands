@@ -1,28 +1,16 @@
 {
-  "name": "@vulgarbear/jotunn_commands",
+  "name": "command-handler",
   "version": "1.0.0",
-  "description": "Command handler for use with Jotunn Dev and Vulgarbear Projects",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "VulgarBear",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^14.0.2",
     "mongoose": "^6.7.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VulgarBear/jotunn_commands.git"
-  },
-  "bugs": {
-    "url": "https://github.com/VulgarBear/jotunn_commands/issues"
-  },
-  "homepage": "https://github.com/VulgarBear/jotunn_commands#readme",
-  "publishConfig": {
-    "@vulgarbear:registry": "https://npm.pkg.github.com"
   }
 }
